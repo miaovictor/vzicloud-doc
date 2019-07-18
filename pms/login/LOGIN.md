@@ -53,9 +53,9 @@ nickname | string | 昵称
 email | string | 邮箱地址
 phone | string | 手机号码
 company | string | 公司名称
-type | int | 用户类型，参见[常用值定义](../../DEFINE.md)
-state | int | 用户状态，参见[常用值定义](../../DEFINE.md)
-logable | int | 是否可登录，参见[常用值定义](../../DEFINE.md)
+type | int | 用户类型，参见[常用值定义](/DEFINE.md)
+state | int | 用户状态，参见[常用值定义](/DEFINE.md)
+logable | int | 是否可登录，参见[常用值定义](/DEFINE.md)
 remark | string | 备注
 create_time | int | 创建时间，UNIX时间
 accesskey_id | string | AccessKeyID，只有两小时有效期

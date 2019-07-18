@@ -27,14 +27,18 @@
 1013 | Access action is not exist! | 一般不会出现这个问题
 1014 | Access action has been disabled! | 功能被禁用了，一般不会出现这个问题
 1015 | Access action denied! | 无权访问这个功能，很可能你的ROOT用户没给你这个权限
+1016 | Request rate exceed max qps! | 超出了QPS限制，您可能要放慢请求速率了
+1017 | Request count exceed total! | 超出了总的请求次数，请联系臻识科技销售进行充值
 1101 | Parse request content to json failed! | 你发送的Json数据很可能有问题
 1102 | Decode base64 failed! | 解码Base64出错了，对照API协议文档认真检查一下
-1103 | Encode base64 failed! | 一般不会出现这个问题，如果出现了，联系臻识科技技术支持吧
-1104 | Request params error! | 发送的数据有问题，错误信息后面会跟上具体是哪个参数有问题，对照API协议文档认真检查一下
-1105 | Login failed! | 登录失败，为了防止恶意登录，我不会告诉你具体错误原因的
-1106 | This user is not allowed to login! | 不允许登录，联系ROOT用户吧
-1107 | Request failed! | 请求失败，对照API协议文档认真检查一下
-1108 | Not support! | 某些功能可能暂时没有提供支持
+1103 | Request params error! | 发送的数据有问题，错误信息后面会跟上具体是哪个参数有问题，对照API协议文档认真检查一下
+1104 | Login failed! | 登录失败，为了防止恶意登录，我不会告诉你具体错误原因的
+1105 | This user is not allowed to login! | 不允许登录，联系ROOT用户吧
+1106 | Request failed! | 请求失败，对照API协议文档认真检查一下
+1107 | Not support! | 某些功能可能暂时没有提供支持
+1108 | No compute server is available! | 没用计算服务器可用，联系臻识科技技术支持吧
+1109 | Request compute server failed! | 请求计算服务器失败，联系臻识科技技术支持吧
+1110 | Image decode failed! | 解码图片失败，请检查上传的图片格式是否正确
 2101 | User is not exist! | 操作的用户不存在
 2102 | User has been disabled! | 操作的用户被禁用了
 2201 | Module is not exist! | 操作的模块不存在
@@ -43,24 +47,17 @@
 2302 | Action has been disabled! | 操作的功能被禁用了
 2401 | AccessKey is not exist! | 操作的AccessKey不存在
 2402 | AccessKey has been disabled! | 操作的AccessKey被禁用了
-3001 | No face server is available! | 没用人脸服务器可用，联系臻识科技技术支持吧
-3002 | Request face server failed! | 请求人脸服务器失败了，联系臻识科技技术支持吧
-3003 | Image format error! | 不支持的图片格式
-3004 | Image decode failed! | 图片解码失败
-3005 | Face detect failed! | 人脸检测失败
-3006 | Face not detected! | 没有检测到人脸
-3007 | Face feature extract failed! | 提取人脸特征失败
-3008 | Face feature compare failed! | 对比人脸特征失败
-3009 | Save image failed! | 保存人脸图片失败
+3001 | Face detect failed! | 人脸检测失败
+3002 | Face not detected! | 没有检测到人脸
+3003 | Face feature extract failed! | 提取人脸特征失败
+3004 | Face feature compare failed! | 对比人脸特征失败
+3005 | Save image failed! | 保存人脸图片失败
 3101 | Face app is not exist! | 人脸应用不存在
 3201 | Face group is not exist! | 人脸分组不存在
 3202 | Face group is already exist! | 人脸分组已经存在
 3301 | Face user is not exist! | 人脸用户不存在
 3302 | Face user is already exist! | 人脸用户已经存在
 3401 | Face is not exist! | 人脸不存在
-4001 | No plate server is available! | 没用车牌服务器可用，联系臻识科技技术支持吧
-4002 | Request plate server failed! | 请求车牌服务器失败了，联系臻识科技技术支持吧
-4003 | Image format error! | 不支持的图片格式
-4004 | Image decode failed! | 图片解码失败
-4005 | Plate detect failed! | 车牌检测失败
+4001 | Plate detect failed! | 车牌检测失败
+4002 | Plate not detected! | 没有检测到车牌
 4101 | Plate app is not exist! | 车牌应用不存在

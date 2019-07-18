@@ -20,9 +20,9 @@ app_id | int | 是 | PATH中的`:app_id`需要替换为具体的应用ID
 
 参数 | 类型 | 必填 | 说明
 ---|---|---|---
-accesskey_id | string | 是 | 参见[用户签名认证](../SIGNATURE.md)
-expires | int | 是 | 参见[用户签名认证](../SIGNATURE.md)
-signature | string | 是 | 参见[用户签名认证](../SIGNATURE.md)
+accesskey_id | string | 是 | 参见[用户签名认证](/SIGNATURE.md)
+expires | int | 是 | 参见[用户签名认证](/SIGNATURE.md)
+signature | string | 是 | 参见[用户签名认证](/SIGNATURE.md)
 
 ### HTTP请求头
 
@@ -42,7 +42,7 @@ image | string | 是 | 图片的Base64编码字符串，**切记需要去掉前�
 ### 请求示例
 
 ```
-POST /v2/prs/user/apps/2/plates/detect?accesskey_id=7fdaq37N1135Q1vK2e503HaLYXd1qVj4&expires=1561541184&signature=mF28sM7%2Fv5arqt4gRO7XLipdKDM%3D HTTP/1.1
+POST https://api.vzicloud.com/v2/prs/user/apps/2/plates/detect?accesskey_id=7fdaq37N1135Q1vK2e503HaLYXd1qVj4&expires=1561541184&signature=mF28sM7%2Fv5arqt4gRO7XLipdKDM%3D HTTP/1.1
 Host: www.vzicloud.com
 Content-Length: 586678
 Content-Type: application/json
@@ -57,10 +57,10 @@ Content-Type: application/json
 参数 | 类型 | 说明
 ---|---|---
 location | object | 车牌在图片中的位置信息
-- left | int | 车牌距离图片左边的距离
-- top | int | 车牌距离图片右边的距离
-- width | int | 车牌的宽度
-- height | int | 车牌的高度
++ left | int | 车牌距离图片左边的距离
++ top | int | 车牌距离图片右边的距离
++ width | int | 车牌的宽度
++ height | int | 车牌的高度
 plate | string | 检测到车牌号
 score | float | 车牌置信度，范围0-1
 decode_base64_msec | int | 解码Base64所用时间，单位：毫秒
