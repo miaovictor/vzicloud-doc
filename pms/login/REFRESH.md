@@ -29,7 +29,7 @@ signature | string | 是 | 参见[用户签名认证](/SIGNATURE.md)
 ### 请求示例
 
 ```
-GET https://api.vzicloud.com/v2/pms/users/refresh_accesskey?accesskey_id=7fdaq37N1135Q1vK2e503HaLYXd1qVj4&expires=1561541184&signature=mF28sM7%2Fv5arqt4gRO7XLipdKDM%3D HTTP/1.1
+GET https://api.vzicloud.com/v2/pms/users/refresh_accesskey?accesskey_id=7ivdc2RR1165MKwS2LtfgDGHEo1P5MZW&expires=1563450129&signature=Ocy22GcsPXkqV5UtzkCFwZH%2BGeg%3D HTTP/1.1
 Host: www.vzicloud.com
 ```
 
