@@ -12,7 +12,11 @@ HTTPS | GET | /v2/pms/users/refresh_accesskey
 
 ### URL参数
 
-无
+参数 | 类型 | 必填 | 说明
+---|---|---|---
+accesskey_id | string | 是 | 参见[用户签名认证](/SIGNATURE.md)
+expires | int | 是 | 参见[用户签名认证](/SIGNATURE.md)
+signature | string | 是 | 参见[用户签名认证](/SIGNATURE.md)
 
 ### HTTP请求头
 
@@ -25,7 +29,7 @@ HTTPS | GET | /v2/pms/users/refresh_accesskey
 ### 请求示例
 
 ```
-GET https://api.vzicloud.com/v2/pms/users/refresh_accesskey HTTP/1.1
+GET https://api.vzicloud.com/v2/pms/users/refresh_accesskey?accesskey_id=7fdaq37N1135Q1vK2e503HaLYXd1qVj4&expires=1561541184&signature=mF28sM7%2Fv5arqt4gRO7XLipdKDM%3D HTTP/1.1
 Host: www.vzicloud.com
 ```
 
