@@ -8,6 +8,7 @@
 * [车牌识别系统](prs/INDEX.md)
     * [车牌识别](prs/DETECT.md)
 * [人脸识别系统](frs/INDEX.md)
+    * [人脸库管理](frs/lib/INDEX.md)
     * [人脸检测](frs/DETECT.md)
     * [人脸比对](frs/MATCH.md)
     * [人脸搜索](frs/SEARCH.md)
