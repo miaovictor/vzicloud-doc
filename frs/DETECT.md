@@ -37,7 +37,7 @@ Content-Type | application/json
 参数 | 类型 | 必填 | 说明 
 ---|---|---|---
 image_type | string | 是 | 图片类型，固定为`BASE64`
-image | string | 是 | 图片的Base64编码字符串，**切记需要去掉前缀`data:image/jpeg;base64`**
+image | string | 是 | 图片的Base64编码字符串，**切记需要去掉前缀`data:image/jpeg;base64`，并且确保图片大小在2M以内，分辨率小于等于1920(宽)x1080(高)！**
 
 ### 请求示例
 

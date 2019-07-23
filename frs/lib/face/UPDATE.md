@@ -39,7 +39,7 @@ Content-Type | application/json
 参数 | 类型 | 必填 | 说明 
 ---|---|---|---
 image_type | string | 是 | 图片类型，固定为`BASE64`
-image | string | 是 | 图片的Base64编码字符串，**切记需要去掉前缀`data:image/jpeg;base64`**
+image | string | 是 | 图片的Base64编码字符串，**切记需要去掉前缀`data:image/jpeg;base64`，并且确保图片大小在2M以内，分辨率小于等于1920(宽)x1080(高)！**
 group_id | string | 是 | 用户组Id（由数字、字母、下划线组成），长度限制48，当用户组不存在时自动创建用户组
 user_id | string | 是 | 用户Id（由数字、字母、下划线组成），长度限制48，当用户不存在时自动创建用户
 user_name | string | 否 | 用户名称
