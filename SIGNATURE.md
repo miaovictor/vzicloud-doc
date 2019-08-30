@@ -92,7 +92,7 @@ VERB + "\n"
 ```
 针对这个格式及以上计算出的结果，可以拼接出`CanonicalString`为：
 ```
-POST\nJ2bREIXRh58BwcSkG9YNQQ==\napplication/json\n1561463558/v2/prs/user/apps
+POST\nJ2bREIXRh58BwcSkG9YNQQ==\napplication/json\n1561463558\n/v2/prs/user/apps
 ```
 
 **4. 计算signature**
