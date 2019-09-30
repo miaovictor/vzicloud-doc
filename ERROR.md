@@ -27,8 +27,9 @@
 1013 | Access action is not exist! | 一般不会出现这个问题
 1014 | Access action has been disabled! | 功能被禁用了，一般不会出现这个问题
 1015 | Access action denied! | 无权访问这个功能，很可能你的ROOT用户没给你这个权限
-1016 | Request rate exceed max qps! | 超出了QPS限制，您可能要放慢请求速率了
-1017 | Request count exceed total! | 超出了总的请求次数，请联系臻识科技销售进行充值
+1016 | Request rate exceed max qps limit! | 超出了QPS限制，您可能要放慢请求速率了
+1017 | Request count exceed total limit! | 超出了总的请求次数，请联系臻识科技销售进行充值
+1018 | Request count exceed daily limit! | 超出了每日免费次数，请联系臻识科技销售进行充值
 1101 | Parse request content to json failed! | 你发送的Json数据很可能有问题
 1102 | Decode base64 failed! | 解码Base64出错了，对照API协议文档认真检查一下
 1103 | Request params error! | 发送的数据有问题，错误信息后面会跟上具体是哪个参数有问题，对照API协议文档认真检查一下
@@ -41,6 +42,8 @@
 1110 | Image decode failed! | 解码图片失败，请检查上传的图片格式是否正确
 2101 | User is not exist! | 操作的用户不存在
 2102 | User has been disabled! | 操作的用户被禁用了
+2103 | User name was used! | 用户名已被使用
+2104 | User email was used! | 用户邮箱已被使用
 2201 | Module is not exist! | 操作的模块不存在
 2202 | Module has been disabled! | 操作的模块被禁用了
 2301 | Action is not exist! | 操作的功能不存在
@@ -52,6 +55,7 @@
 3003 | Face feature extract failed! | 提取人脸特征失败
 3004 | Face feature compare failed! | 对比人脸特征失败
 3005 | Save image failed! | 保存人脸图片失败
+3006 | View image failed! | 浏览人脸图片失败
 3101 | Face app is not exist! | 人脸应用不存在
 3201 | Face group is not exist! | 人脸分组不存在
 3202 | Face group is already exist! | 人脸分组已经存在
@@ -61,3 +65,17 @@
 4001 | Plate detect failed! | 车牌检测失败
 4002 | Plate not detected! | 没有检测到车牌
 4101 | Plate app is not exist! | 车牌应用不存在
+5001 | Device was bound! | 设备已经被绑定到其他账户了
+5002 | Device is not exist! | 设备不存在
+5003 | Device is not bind! | 设备还没有绑定
+5101 | Device group is not exist! | 设备分组不存在
+5201 | Board is not exist! | 硬件不存在
+5301 | Device config is not exist! | 设备配置不存在
+5302 | Device config is already used! | 设备配置已经被应用了
+5303 | Device config is already cancelled! | 设备配置已经被取消了
+5401 | Device upgrade is not exist! | 设备升级不存在
+5402 | Device upgrade is already used! | 设备升级已经被应用了
+5403 | Device upgrade is already cancelled! | 设备升级已经被取消了
+5501 | Device whitelist is not exist! | 设备白名单不存在
+5502 | Device whitelist is already used! | 设备白名单已经被应用了
+5503 | Device whitelist is already cancelled! | 设备白名单已经被取消了
