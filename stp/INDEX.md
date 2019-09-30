@@ -1,0 +1,15 @@
+# 远程运维系统
+
+* [分组管理](group/INDEX.md)
+  * [创建分组](group/CREATE.md)
+  * [修改分组](group/UPDATE.md)
+  * [删除分组](group/DELETE.md)
+  * [查看分组](group/VIEW.md)
+  * [遍历分组](group/SCAN.md)
+* [设备管理](device/INDEX.md)
+  * [绑定设备](device/BIND.md)
+  * [修改设备信息](device/UPDATE.md)
+  * [解绑设备](device/UNBIND.md)
+  * [查看设备信息](device/VIEW.md)
+  * [遍历设备](device/SCAN.md)
+  * [远程访问设备](device/PDNS.md)
