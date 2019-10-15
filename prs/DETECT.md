@@ -1,8 +1,8 @@
-# 车牌识别
+# 海外车牌识别
 
 ## 接口描述
 
-车牌识别。
+海外车牌识别。
 
 ## 请求说明
 
@@ -58,12 +58,11 @@ Content-Type: application/json
 ---|---|---
 location | object | 车牌在图片中的位置信息
 + left | int | 车牌距离图片左边的距离
-+ top | int | 车牌距离图片右边的距离
++ top | int | 车牌距离图片上边的距离
 + width | int | 车牌的宽度
 + height | int | 车牌的高度
 plate | string | 检测到车牌号
 score | float | 车牌置信度，范围0-1
-decode_base64_msec | int | 解码Base64所用时间，单位：毫秒
 decode_image_msec | int | 解码图片所用时间，单位：毫秒
 detect_plate_msec | int | 车牌识别所用时间，单位：毫秒
 
@@ -79,7 +78,6 @@ detect_plate_msec | int | 车牌识别所用时间，单位：毫秒
   },
   "plate": "ATW5880",
   "score": 0.95580637454987,
-  "decode_base64_msec": 1,
   "decode_image_msec": 13,
   "detect_plate_msec": 42
 }
