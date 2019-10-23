@@ -35,7 +35,7 @@ signature | string | 是 | 参见[用户签名认证](/SIGNATURE.md)
 ### 请求示例
 
 ```
-GET https://api.vzicar.com/v2/stp/user/device/b43ebdcb-fc88fc2f?accesskey_id=7dypI0Pg111567Er2YLD7aNIdoflxZ7N&expires=1569238328&signature=p58TFsf4KB4Dkvs5oM2ROAKzE6M%3D HTTP/1.1
+GET https://www.vzicar.com/v2/stp/user/device/b43ebdcb-fc88fc2f?accesskey_id=7dypI0Pg111567Er2YLD7aNIdoflxZ7N&expires=1569238328&signature=p58TFsf4KB4Dkvs5oM2ROAKzE6M%3D HTTP/1.1
 Host: www.vzicar.com
 ```
 

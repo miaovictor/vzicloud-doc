@@ -53,7 +53,7 @@ where | string | 否 | 参见[遍历接口说明](/SCAN.md)
 ### 请求示例
 
 ```
-GET https://api.vzicar.com/v2/stp/user/devices?offset=0&limit=10&accesskey_id=7dR8KXfk1115UmXr2B7CQ9xk0utlECj3&expires=1569316131&signature=6jqlUE%2BdvcLlF5bzlWHX09ZmFnY%3D HTTP/1.1
+GET https://www.vzicar.com/v2/stp/user/devices?offset=0&limit=10&accesskey_id=7dR8KXfk1115UmXr2B7CQ9xk0utlECj3&expires=1569316131&signature=6jqlUE%2BdvcLlF5bzlWHX09ZmFnY%3D HTTP/1.1
 Host: www.vzicar.com
 ```
 

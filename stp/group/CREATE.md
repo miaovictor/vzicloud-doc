@@ -41,7 +41,7 @@ remark | string | 否 | 分组备注信息
 ### 请求示例
 
 ```
-POST https://api.vzicar.com/v2/stp/user/groups?accesskey_id=7dypI0Pg111567Er2YLD7aNIdoflxZ7N&expires=1569239651&signature=UQXtHLLxUkUW%2BO1oEmM06SuzM1Q%3D HTTP/1.1
+POST https://www.vzicar.com/v2/stp/user/groups?accesskey_id=7dypI0Pg111567Er2YLD7aNIdoflxZ7N&expires=1569239651&signature=UQXtHLLxUkUW%2BO1oEmM06SuzM1Q%3D HTTP/1.1
 Host: www.vzicar.com
 Content-Length: 50
 Content-Type: application/json

@@ -40,7 +40,7 @@ devices | array | 是 | 设备数组
 ### 请求示例
 
 ```
-DELETE https://api.vzicar.com/v2/stp/user/groups?accesskey_id=7dK3qlar1115drSr2ew5N13etydlHlwn&expires=1569300606&signature=%2FLfu88AKh3KkRtaRQROM7zlVcgE%3D HTTP/1.1
+DELETE https://www.vzicar.com/v2/stp/user/groups?accesskey_id=7dK3qlar1115drSr2ew5N13etydlHlwn&expires=1569300606&signature=%2FLfu88AKh3KkRtaRQROM7zlVcgE%3D HTTP/1.1
 Host: www.vzicar.com
 Content-Length: 39
 Content-Type: application/json

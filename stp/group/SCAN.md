@@ -44,7 +44,7 @@ where | string | 否 | 参见[遍历接口说明](/SCAN.md)
 ### 请求示例
 
 ```
-GET https://api.vzicar.com/v2/stp/user/groups?offset=0&limit=10&where=W3sibmFtZSI6InBhcmVudF9pZCIsInZhbHVlIjowLCJvcGVyIjoiZXEifV0%3D&accesskey_id=7dypI0Pg111567Er2YLD7aNIdoflxZ7N&expires=1569238328&signature=p58TFsf4KB4Dkvs5oM2ROAKzE6M%3D HTTP/1.1
+GET https://www.vzicar.com/v2/stp/user/groups?offset=0&limit=10&where=W3sibmFtZSI6InBhcmVudF9pZCIsInZhbHVlIjowLCJvcGVyIjoiZXEifV0%3D&accesskey_id=7dypI0Pg111567Er2YLD7aNIdoflxZ7N&expires=1569238328&signature=p58TFsf4KB4Dkvs5oM2ROAKzE6M%3D HTTP/1.1
 Host: www.vzicar.com
 ```
 
