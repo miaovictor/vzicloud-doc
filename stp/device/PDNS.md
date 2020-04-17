@@ -57,4 +57,4 @@ userinfo | string | 否 | 如果请求方式是`url_login`，那么该参数是�
   ```
   https://www.vzicar.com/v2/stp/user/devices/pdns?accesskey_id=75p9IP2O11M5kuYr2YEgjopRQYbNzZEM&expires=1569321374&signature=XN4LKhc0En93K7mHytTvLStb1sY%3D&sn=407bb96a-ec7ad3fe&port=80&type=url_login&userdata=pdns&userinfo=40bPBw%2b0ojJ4VPNTuGH0Qg%3d%3d
   ```
-  其中，`40bPBw%2b0ojJ4VPNTuGH0Qg%3d%3d`是`admin:admin`加密后的结果。
+  其中，`40bPBw%2b0ojJ4VPNTuGH0Qg%3d%3d`是`admin:admin`加密后的结果，其中使用的AccessKeySecret为`0123456789abcdefghijklmnopqrstuv`。
